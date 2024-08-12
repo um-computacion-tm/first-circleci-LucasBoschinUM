@@ -41,13 +41,13 @@ checks:
     config:
       threshold: #language-specific defaults. overrides affect all languages.
 
-      exclude_patterns:
-      "config/"
-      "db/"
-      "dist/"
-      "features/"
-      "venb/"
-      "**/tests/"
-      "**/vendor/"
-      "**/*_test.go"
-      "**/*.d.ts"
+exclude_patterns:
+- "config/"
+- "db/"
+- "dist/"
+- "features/"
+- "venv/"
+- "**/tests/"
+- "**/vendor/"
+- "**/*_test.go"
+- "**/*.d.ts"
