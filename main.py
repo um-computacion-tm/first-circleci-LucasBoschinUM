@@ -16,3 +16,4 @@ def absurdo():
 if __name__ == '__main__':
     print(suma(1, 2))
     print(absurdo())
+    
